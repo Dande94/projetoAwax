@@ -4,6 +4,7 @@
 body{
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 /* header */
 header{
@@ -133,6 +134,45 @@ header{
 .banner .pointer.active{
     /* quando duas classes que estão juntas no html precisam ser declaradas no css, para que seja aplicada a propriedade ambas não podem ser separadas por espaço */
     background-color: #B28756;
+}
+
+.default{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .sectionTitle,
+.default .sectionDesc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .sectionTitle{
+    font-size: 20px;
+}
+.default .sectionDesc{
+    font-size: 13px;
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.default .sectionBody{
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+    background-color: #ccc;
+}
+.default.dark{
+    background-color: #f7f7f7;
+}
+.default.light .sectionTitle{
+    color: #000;
+}
+.default.dark{
+    background-color: #000;
+}
+.default.dark .sectionTitle{
+    color: #FFF;
 }
 
 /* main */
