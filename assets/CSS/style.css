@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    /* height: 100px; */
+}
+.logoImg{
+    width: 80px;
+    height: 80px;
+    background-color: darkgoldenrod;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul,
+.menu li{
+    list-style: none;
+}
